@@ -4,6 +4,7 @@
 # - Valor do boleto
 # - Data de vencimento
 # - Data de pagamento
+
 # Ele calcula:
 # - Dias de atraso (se houver)
 # - Multa de 2% sobre o valor original
@@ -74,7 +75,7 @@ while True:
         print("\nObrigado por usar o Banco PyTrust! Até mais!\n")
         break
 
-    # Limpa a tela antes da próxima rodada
+    # Limpa a tela antes de analisar outro boleto
     if platform.system() == "Windows": 
         os.system('cls')
     else:
